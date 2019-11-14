@@ -25,11 +25,22 @@ Spotify API key
 
    * Step Four: On the next screen, scroll down to where you see your client id and client secret. Copy these values down somewhere, you'll need them to use the Spotify API and the [node-spotify-api package](https://www.npmjs.com/package/node-spotify-api).
 
-> now install npm packages
+   * These keys can be stored in your .env and accessed by your keys.js file. 
 
-```shell
-$ npm install
 ```
+SeatGeek API key
+```
+   * The Spotify API requires you sign up as a developer to generate the necessary credentials. You can follow these steps in order to generate a **client id** and **client secret**:
+
+   * Step One: Visit <https://seatgeek.com/account/develop>
+
+   * Step Two: Either login to your existing SeatGeek account or create a new one (a free account is fine) and log in.
+
+   * Step Three: Once logged in, navigate to <https://seatgeek.com/account/develop> to register a new application to be used with the SeatGeek API. You can fill in whatever you'd like for these fields. When finished, click the "complete" button.
+
+   * Step Four: On the next screen, scroll down to where you see your client id and client secret. Copy these values down somewhere, you'll need them to use the SeatGeek API.
+
+   * These keys can be stored in your .env and accessed by your keys.js file. 
 
 ### Installing
 
@@ -41,7 +52,7 @@ Say what the step will be
 Give the example
 ```
 
->install Node.js from https://nodejs.org/en/
+>install Node.js from <https://nodejs.org/en/>
 
 > install npm packages
 
