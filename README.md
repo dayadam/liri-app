@@ -52,13 +52,13 @@ Node.js and moment, axios, node-spotify-api, and dotenv packages are required to
 
 * Procure an omdb API key as well. 
 
----
-
-## Installing
-
 ### Clone
 
 - Clone this repo to your local machine using `https://github.com/dayadam/liri-app`
+
+---
+
+## Installing
 
 - install Node.js from <https://nodejs.org/en/>
 
