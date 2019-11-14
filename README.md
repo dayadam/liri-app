@@ -97,9 +97,14 @@ Continuing the earlier example, this is the liri output:
 
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+* [Node.js](https://nodejs.org/en/) - Server runtime environment for JavaScript
+* [Moment](https://www.npmjs.com/package/moment) - Date formatting
+* [DotEnv](https://www.npmjs.com/package/dotenv) - Used to access API keys without putting them in source code
+* [Node-Spotify-API](https://www.npmjs.com/package/node-spotify-api) - Used to access Spotify API
+* [Axios](https://www.npmjs.com/package/axios) - Used for server side http requests to APIs 
+* [Spotify API](https://developer.spotify.com/my-applications/#!/) - Search for songs and get back information about them
+* [OMDB API](http://www.omdbapi.com) - Search for movies and get back information about them
+* [SeatGeek API](http://platform.seatgeek.com/#events) - Search for events and get back information about them
 
 ## Authors
 
