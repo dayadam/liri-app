@@ -20,9 +20,8 @@ These instructions will get you a copy of the project up and running on your loc
 
 Node.js and moment, axios, node-spotify-api, and dotenv packages are required to run this application. This application also requires API keys for Spotify, omdb, and SeatGeek.
 
-```
-Spotify API key
-```
+### Spotify API key
+
    * The Spotify API requires you sign up as a developer to generate the necessary credentials. You can follow these steps in order to generate a **client id** and **client secret**:
 
    * Step One: Visit <https://developer.spotify.com/my-applications/#!/>
@@ -35,9 +34,8 @@ Spotify API key
 
    * These keys can be stored in your .env and accessed by your keys.js file. 
 
-```
-SeatGeek API key
-```
+### SeatGeek API key
+
 * The SeatGeek API requires you sign up as a developer to generate the necessary credentials. You can follow these steps in order to generate a **client id** and **client secret**:
 
 * Step One: Visit <https://seatgeek.com/account/develop>
@@ -50,9 +48,8 @@ SeatGeek API key
 
 * These keys can be stored in your .env and accessed by your keys.js file. 
 
-```
-Open Movie Database API Key
-```
+### Open Movie Database API Key
+
 * Procure an omdb API key as well. 
 
 ---
