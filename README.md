@@ -49,15 +49,11 @@ Open Movie Database API Key
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running
+### Clone
 
-Say what the step will be
+- Clone this repo to your local machine using `https://github.com/dayadam/liri-app`
 
-```
-Give the example
-```
-
->install Node.js from <https://nodejs.org/en/>
+> install Node.js from <https://nodejs.org/en/>
 
 > install npm packages
 
