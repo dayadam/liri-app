@@ -7,7 +7,7 @@ This is a Node.js command line interface (CLI) app that allows users to search t
 ## Table of Contents
 
 - [Prerequisites](#prerequisites)
-- [Installation](#installing)
+- [Installation](#installation)
 - [Built With](#built-with)
 
 ## Organization of the Application
@@ -62,7 +62,7 @@ Node.js and moment, axios, node-spotify-api, and dotenv packages are required to
 
 ---
 
-## Installing
+## Installation
 
 - install Node.js from <https://nodejs.org/en/>
 
