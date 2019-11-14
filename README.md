@@ -30,7 +30,7 @@ Spotify API key
 ```
 SeatGeek API key
 ```
-   * The Spotify API requires you sign up as a developer to generate the necessary credentials. You can follow these steps in order to generate a **client id** and **client secret**:
+    * The SeatGeek API requires you sign up as a developer to generate the necessary credentials. You can follow these steps in order to generate a **client id** and **client secret**:
 
    * Step One: Visit <https://seatgeek.com/account/develop>
 
@@ -41,6 +41,11 @@ SeatGeek API key
    * Step Four: On the next screen, scroll down to where you see your client id and client secret. Copy these values down somewhere, you'll need them to use the SeatGeek API.
 
    * These keys can be stored in your .env and accessed by your keys.js file. 
+
+```
+Open Movie Database API Key
+```
+    * Procure an omdb API key as well. 
 
 ### Installing
 
