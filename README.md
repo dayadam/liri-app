@@ -4,14 +4,22 @@ This is a Node.js command line interface (CLI) app that allows users to search t
 
 ## Getting Started
 
+In order for this application to run on your local computer, you must have Node.js installed as well as the required node modules. 
+
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+Node.js and moment, axios, node-spotify-api, and dotenv packages are required to run this application. 
 
 ```
-Give examples
+Node.js -- can be gotten from nodejs.org
+```
+
+> now install npm packages
+
+```shell
+$ npm install
 ```
 
 ### Installing
