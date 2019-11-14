@@ -91,17 +91,21 @@ For `concert-this`, liri will respond with:
 * Date of the Event
 
 Continuing the earlier example, this is the liri output: 
-* `PPG Paints Arena`
-* `Pittsburgh, PA 15219`
-* `11/13/2019`
+
+```shell
+$ node liri.js concert-this Elton John
+PPG Paints Arena
+Pittsburgh, PA 15219
+11/13/2019
+```
 
 ## Built With
 
 * [Node.js](https://nodejs.org/en/) - Server runtime environment for JavaScript
-* [Moment](https://www.npmjs.com/package/moment) - Date formatting
-* [DotEnv](https://www.npmjs.com/package/dotenv) - Used to access API keys without putting them in source code
-* [Node-Spotify-API](https://www.npmjs.com/package/node-spotify-api) - Used to access Spotify API
-* [Axios](https://www.npmjs.com/package/axios) - Used for server side http requests to APIs 
+* [Moment](https://www.npmjs.com/package/moment) - Date formatting package
+* [DotEnv](https://www.npmjs.com/package/dotenv) - Package used to access API keys without putting them in source code
+* [Node-Spotify-API](https://www.npmjs.com/package/node-spotify-api) - Package used to access Spotify API
+* [Axios](https://www.npmjs.com/package/axios) - Package used for server side http requests to APIs 
 * [Spotify API](https://developer.spotify.com/my-applications/#!/) - Search for songs and get back information about them
 * [OMDB API](http://www.omdbapi.com) - Search for movies and get back information about them
 * [SeatGeek API](http://platform.seatgeek.com/#events) - Search for events and get back information about them
