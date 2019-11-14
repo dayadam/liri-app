@@ -8,7 +8,7 @@ This is a Node.js command line interface (CLI) app that allows users to search t
 
 - [Prerequisites](#prerequisites)
 - [Installation](#installing)
-- [Authors](#authors)
+- [Built With](#built+with)
 
 ## Getting Started
 
