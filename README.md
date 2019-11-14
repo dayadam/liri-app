@@ -18,7 +18,7 @@ In order for this application to run on your local computer, you must have Node.
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
-### Prerequisites
+## Prerequisites
 
 Node.js and moment, axios, node-spotify-api, and dotenv packages are required to run this application. This application also requires API keys for Spotify, omdb, and SeatGeek.
 
@@ -57,7 +57,9 @@ Open Movie Database API Key
 ```
 * Procure an omdb API key as well. 
 
-### Installing
+---
+
+## Installing
 
 ### Clone
 
