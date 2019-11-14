@@ -74,6 +74,8 @@ $ npm install
 
 ### Example
 
+[Working Video](https://drive.google.com/file/d/1W_UpSN3yywK9IHTg6eHKV3P0Md6E58KK/view?usp=sharing)
+
 Use node to execute the liri.js file. The first CLI argument will be the app function you want to execute. Available commands are:
 * `concert-this` (SeatGeek AP)
 * `spotify-this-song` (Spotify API)
