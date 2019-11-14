@@ -10,8 +10,6 @@ This is a Node.js command line interface (CLI) app that allows users to search t
 - [Installation](#installing)
 - [Authors](#authors)
 
----
-
 ## Getting Started
 
 In order for this application to run on your local computer, you must have Node.js installed as well as the required node modules. 
@@ -73,13 +71,19 @@ Open Movie Database API Key
 $ npm install
 ```
 
-And repeat
+### Example
 
-```
-until finished
-```
+Use node to execute the liri.js file. The first CLI argument will be the app function you want to execute. Available commands are:
+* `concert-this` [SeatGeek AP]
+* `spotify-this-song`
+* movie-this
+* do-what-it-says
 
-End with an example of getting some data out of the system or using it for a little demo
+The second CLI argument will be the artist, song, or movie you are searching. 
+
+```shell
+$ node liri.js concert-this Elton John
+```
 
 ## Built With
 
