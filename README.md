@@ -32,6 +32,14 @@ Say what the step will be
 Give the example
 ```
 
+>install Node.js from https://nodejs.org/en/
+
+> install npm packages
+
+```shell
+$ npm install
+```
+
 And repeat
 
 ```
