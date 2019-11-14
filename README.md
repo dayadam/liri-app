@@ -2,6 +2,16 @@
 
 This is a Node.js command line interface (CLI) app that allows users to search the APIs of SeatGeek, Spotify, and Open Movie Database (omdb) with the help of the packages of node-spotify-api and axios. Secret keys are stored outside of the source code with the help of the dotenv package. The package moment helped with formatting dates. This app was created to satisfy the requirements of Unit-09-nodejs of the Georgia Institute of Technology software development professional program in the Fall of 2019.
 
+---
+
+## Table of Contents
+
+- [Prerequisites](#prerequisites)
+- [Installation](#installing)
+- [Authors](#authors)
+
+---
+
 ## Getting Started
 
 In order for this application to run on your local computer, you must have Node.js installed as well as the required node modules. 
@@ -53,7 +63,7 @@ Open Movie Database API Key
 
 - Clone this repo to your local machine using `https://github.com/dayadam/liri-app`
 
-> install Node.js from <https://nodejs.org/en/>
+- install Node.js from <https://nodejs.org/en/>
 
 > install npm packages
 
