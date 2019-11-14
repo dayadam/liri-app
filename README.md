@@ -10,11 +10,15 @@ This is a Node.js command line interface (CLI) app that allows users to search t
 - [Installation](#installing)
 - [Built With](#built-with)
 
+## Organization of the Application
+
+The app mainly consists of three functions intended for the CLI arguments of `concert-this`, `spotify-this-song`, and `movie-this`. The `concert-this` function uses axios to connect to the SeatGeek API and log information for a given artist or band of their soonest upcoming event. The `spotify-this-song` function uses the node-spotify-api package to connect to the Spotify API and retrieve and log information about the searched song. The `movie-this` function uses axios to connect to the omdb API and retrieve and log information about the searched movie. The application checks to see if `do-what-it-says` is the first argument, in which case the application will read the random.txt file and execute the command (i.e., `spotify-this-song`) and search term located in that file. 
+
 ## Getting Started
 
 In order for this application to run on your local computer, you must have Node.js installed as well as the required node modules. 
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. 
 
 ## Prerequisites
 
