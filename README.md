@@ -74,10 +74,10 @@ $ npm install
 ### Example
 
 Use node to execute the liri.js file. The first CLI argument will be the app function you want to execute. Available commands are:
-* `concert-this` [SeatGeek AP]
-* `spotify-this-song`
-* movie-this
-* do-what-it-says
+* `concert-this` (SeatGeek AP)
+* `spotify-this-song` (Spotify API)
+* `movie-this` (OMDB API)
+* `do-what-it-says` (This will execute whichever command and search argument is saved in the random.txt file)
 
 The second CLI argument will be the artist, song, or movie you are searching. 
 
