@@ -85,6 +85,16 @@ The second CLI argument will be the artist, song, or movie you are searching.
 $ node liri.js concert-this Elton John
 ```
 
+For `concert-this`, liri will respond with:
+* Name of the venue
+* Venue location
+* Date of the Event
+
+Continuing the earlier example, this is the liri output: 
+* `PPG Paints Arena`
+* `Pittsburgh, PA 15219`
+* `11/13/2019`
+
 ## Built With
 
 * [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
